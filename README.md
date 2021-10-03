@@ -14,8 +14,13 @@ The process of the system will begin by extracting features on all images, wheth
 
 ## Implementation:
 To implement the CBIR, we will use Python as the programming language, Tensorflow for feature extraction, and Numpy for calculating the distance. If we summarize, here are the steps that we will do,
-Download the dataset
-Extract features from image database
-Insert the query image and extract its features
-Calculate the similarities with all images
-Retrieve the most similar result
+
+• Download the dataset
+
+• Extract features from image database
+
+• Insert the query image and extract its features
+
+• Calculate the similarities with all images
+
+• Retrieve the most similar result
