@@ -33,4 +33,4 @@ To implement the CBIR, we will use Python as the programming language, Tensorflo
 • app.py:This script runs a web-server. You can send your query image to the server via a Flask web-interface. The server finds similar images to the query by a simple linear scan.
 
 ## Usage:
-
+git clone https://github.com/Vinit21592/Image-Search-Engine.git
