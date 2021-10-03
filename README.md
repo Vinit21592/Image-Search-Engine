@@ -24,3 +24,10 @@ To implement the CBIR, we will use Python as the programming language, Tensorflo
 • Calculate the similarities with all images
 
 • Retrieve the most similar result
+
+## Overview:
+• This is a simple image-based image search engine using Keras + Flask. You can launch the search engine just by running two python scripts.
+
+• offline.py:This script extracts a deep-feature from each database image. Each feature is a 4096D fc6 activation from a VGG16 model with ImageNet pre-trained weights.
+
+• app.py:This script runs a web-server. You can send your query image to the server via a Flask web-interface. The server finds similar images to the query by a simple linear scan.
