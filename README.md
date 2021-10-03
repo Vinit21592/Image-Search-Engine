@@ -34,3 +34,16 @@ To implement the CBIR, we will use Python as the programming language, Tensorflo
 
 ## Usage:
 git clone https://github.com/Vinit21592/Image-Search-Engine.git
+
+cd Image-Search-Engine
+
+pip install -r requirements.txt
+
+#### Put your image files (*.jpg) on static/img
+
+#### Then fc6 features are extracted and saved on static/feature
+#### Note that it takes time for the first time because Keras downloads the VGG weights.
+python offline.py
+
+#### Now you can do the search via localhost:5000
+python app.py
