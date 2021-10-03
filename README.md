@@ -11,3 +11,11 @@ The process of the system will begin by extracting features on all images, wheth
 
 ## Workflow:
 ![Flow](https://user-images.githubusercontent.com/78821357/135760220-2738ace9-3ca1-4d23-a046-4d5e35a7d970.JPG)
+
+## Implementation:
+To implement the CBIR, we will use Python as the programming language, Tensorflow for feature extraction, and Numpy for calculating the distance. If we summarize, here are the steps that we will do,
+Download the dataset
+Extract features from image database
+Insert the query image and extract its features
+Calculate the similarities with all images
+Retrieve the most similar result
